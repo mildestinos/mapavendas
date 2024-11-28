@@ -40,3 +40,20 @@ body {
   font-weight: bold;
   color: #007bff;
 }
+#developer {
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+  background-color: #f8f9fa;
+  color: #555;
+}
+
+#developer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#developer a:hover {
+  text-decoration: underline;
+}
+
