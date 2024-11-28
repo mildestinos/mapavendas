@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#map {
+  height: 85vh; /* Mapa ocupa 85% da tela */
+  width: 100%;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh; /* Rodapé ocupa 15% da tela */
+  background-color: #f8f9fa;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+}
+
+.card {
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 30%;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.card p {
+  margin: 5px 0 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #007bff;
+}

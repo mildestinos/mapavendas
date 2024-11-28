@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Vendas</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Mapa -->
+  <div id="map"></div>
+
+  <!-- Rodapé com os cards -->
+  <div id="footer">
+    <div class="card">
+      <h3>Venda Máxima</h3>
+      <p id="max-sale">R$ 0,00</p>
+    </div>
+    <div class="card">
+      <h3>Venda Mínima</h3>
+      <p id="min-sale">R$ 0,00</p>
+    </div>
+    <div class="card">
+      <h3>Vendas por Estado</h3>
+      <p id="state-sales">Nenhuma venda ainda</p>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
