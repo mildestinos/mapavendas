@@ -1,6 +1,6 @@
 # Mapa de Vendas em Tempo Real
 
-Este projeto é um simulador de vendas online que utiliza um mapa interativo para exibir os locais das vendas, além de estatísticas em tempo real.
+Este projeto é um mapa interativo para exibir os locais das vendas, além de estatísticas em tempo real.
 
 ## Funcionalidades
 - **Mapa Interativo**: Cada venda é representada como um marcador no mapa, indicando o estado onde ocorreu.
