@@ -1,0 +1,63 @@
+Se eu fosse pedir para mim mesmo um **prompt detalhado** para gerar um projeto do **Mapa de Vendas em Tempo Real**, ele seria assim:
+
+---
+
+### **Prompt para Gerar o Projeto Completo**
+> Você é uma IA especializada em desenvolvimento web. Crie um projeto completo de um **Mapa de Vendas em Tempo Real**, com as seguintes especificações:  
+>
+> #### **Objetivo do Projeto**
+> Desenvolver uma aplicação web que simula vendas em tempo real, exibindo os locais das vendas em um mapa interativo. O projeto deve incluir estatísticas como:
+> - Valor máximo e mínimo de vendas.
+> - Quantidade de vendas por estado.
+> - Atualização dinâmica no mapa e nos cards de estatísticas.
+>
+> #### **Requisitos Técnicos**
+> 1. **HTML**:
+>    - Estrutura básica da página com:
+>      - Um mapa interativo ocupando 85% da tela.
+>      - Um rodapé com 3 cards para exibir:
+>        - **Venda Máxima**.
+>        - **Venda Mínima**.
+>        - **Vendas por Estado**.
+>      - Um rodapé adicional para o crédito ao desenvolvedor com um link para o perfil no LinkedIn.
+> 2. **CSS**:
+>    - Layout responsivo para exibição em desktop e dispositivos móveis.
+>    - Estilo minimalista e moderno, com uso de cores claras e destaque nos números.
+> 3. **JavaScript**:
+>    - Use **Leaflet.js** para o mapa interativo.
+>    - Simulação de vendas com valores entre R$10.000 e R$5.000.000.
+>    - Atualização dinâmica dos seguintes elementos:
+>      - Adicionar marcadores no mapa para cada venda.
+>      - Atualizar os valores nos cards (máximo, mínimo e vendas por estado).
+>      - Atualizar o mapa a cada 2 segundos com uma nova venda simulada.
+>    - Tooltip no marcador com detalhes como:
+>      - Estado.
+>      - Valor da venda.
+> 4. **README.md**:
+>    - Documentação completa explicando como executar o projeto, tecnologias usadas e como contribuir.
+> 5. **GitHub**:
+>    - Preparar o projeto para ser publicado no GitHub, com uma estrutura clara e organizada, incluindo:
+>      - `index.html`, `style.css`, `app.js`.
+>      - `.gitignore` para ignorar arquivos desnecessários.
+>      - Licença **MIT**.
+>
+> #### **Extras (opcional)**
+> - Configurar o projeto para ser executado no GitHub Pages.
+> - Adicionar capturas de tela e/ou GIFs demonstrando a aplicação em funcionamento no `README.md`.
+
+---
+
+### **O que espero receber**
+1. **Projeto Completo**:
+   - Arquivos prontos para rodar localmente (`index.html`, `style.css`, `app.js`).
+   - Estrutura clara e organizada para publicação no GitHub.
+2. **README.md**:
+   - Documentação bem detalhada com instruções para rodar o projeto.
+3. **Demonstração Visual**:
+   - Instruções claras para criar capturas de tela ou GIFs.
+4. **Compatibilidade**:
+   - Deve funcionar em qualquer servidor local básico (Python ou Node.js).
+
+---
+
+Se precisar ajustar algo ou incluir mais detalhes no projeto, é só pedir! 😊
